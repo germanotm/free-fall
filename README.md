@@ -61,7 +61,16 @@ No nosso problema o objeto vai ser lançado de uma altura inicial <img src="http
 
 Com esse modelo podemos determinas altura exata do bojeto em queda livre no decorrer do tempo.
 
-# Desenvolvimento
+#### 2. Resolva numericamente as equações de movimento para um corpo em queda livre a partir de uma altura inicial e um valor de velocidade inicial, em uma dimensão. 
+
+
+#### 3. Valide o modelo realizando um experimento análogo ao simulado e verifique a acurácia do modelo. (Sugestão: meça 10 ensaios e calcule a média e desvio padrão do experimento para comparar com o resultado simulado).
+
+#### 4. Apresente os resultados  de forma gráfica, com as curvas da posição, velocidade e aceleração em função do tempo. Discuta os resultados e  apresente suas conclusões.
+
+https://germanotm.github.io/free-fall/
+
+# Instruções para rodar localmente
 
 ## Project setup
 ```
