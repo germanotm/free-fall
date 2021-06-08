@@ -7036,6 +7036,10 @@ __metadata:
     core-js: ^3.6.5
     eslint: ^6.7.2
     eslint-plugin-vue: ^7.0.0
+    immer: ^9.0.2
+    postprocessing: ^6.22.0
+    three: ^0.129.0
+    three-trackballcontrols: ^0.9.0
     vue: ^3.0.0
     webpack: 4.42.0
   languageName: unknown
@@ -8124,6 +8128,13 @@ fsevents@~2.3.1:
   version: 5.1.8
   resolution: "ignore@npm:5.1.8"
   checksum: b08e3d5b5d94eca13475f29a5d47d221060e9cdd7e38d7647088e29d90130669a970fecbc4cdb41b8fa295c6673740c729d3dc05dadc381f593efb42282cbf9f
+  languageName: node
+  linkType: hard
+
+"immer@npm:^9.0.2":
+  version: 9.0.2
+  resolution: "immer@npm:9.0.2"
+  checksum: 71487285a890e6fb92ed8950ce3b5b0e2546321bb4dfe82a7395fbc3f24308b0481387b5939fd35681bac8e36161d903f2bcd99ac045acd25ed3a7f21c629bfd
   languageName: node
   linkType: hard
 
@@ -11475,6 +11486,15 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"postprocessing@npm:^6.22.0":
+  version: 6.22.0
+  resolution: "postprocessing@npm:6.22.0"
+  peerDependencies:
+    three: ">= 0.102.0 < 0.130.0"
+  checksum: 39ef521ce8ae3d249ce0d237f9e22000c99bb1b35363e8436e5c8fd555e8efadc07647388a550cb14e45fa3456aaa6761d4dea4fa9fa8775fa9f97c6ccc3f345
+  languageName: node
+  linkType: hard
+
 "prelude-ls@npm:~1.1.2":
   version: 1.1.2
   resolution: "prelude-ls@npm:1.1.2"
@@ -13465,6 +13485,22 @@ fsevents@~2.3.1:
   peerDependencies:
     webpack: ^2.0.0 || ^3.0.0 || ^4.0.0
   checksum: b607b8ae84e66c52aae20f77beb1fe921d6a81434ae8595ddcf6019eb39939aa9b15475c19b3f8c8c6e2d49460b13b859c79e62c091bd0f29d5355e51598523c
+  languageName: node
+  linkType: hard
+
+"three-trackballcontrols@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "three-trackballcontrols@npm:0.9.0"
+  peerDependencies:
+    three: ">= 0.86 <= 1.0"
+  checksum: 6bf441aa261b141b60dfd156dfb8c54652b87843f5ce44a9598afff98811cdf73460c2b75013191ba42308d62ef1f6420d910650368e56b2c64cb44f6a0b1f40
+  languageName: node
+  linkType: hard
+
+"three@npm:^0.129.0":
+  version: 0.129.0
+  resolution: "three@npm:0.129.0"
+  checksum: 111b163065e3ee9a33c89d08817195bc24946470b8974d128021518e2c2da1346285c5db0a5ebe9c04f47eb666532fa41f517bcf15d4be69eec7a9f82f1fe950
   languageName: node
   linkType: hard
 

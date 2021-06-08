@@ -77,9 +77,9 @@ Repetimos o passo para descobrir a altura da pedra no tempo <img src="https://re
 
 <img src="https://render.githubusercontent.com/render/math?math=h_2 = h_1 %2B v_1t %2B \frac{1}{2}gt^2"> \
 <img src="https://render.githubusercontent.com/render/math?math=h_2 = 93.1 - 6.9*1 %2B \frac{1}{2}*(-9.8)*1">
-<img src="https://render.githubusercontent.com/render/math?math=h_2 = 78.6 m">
+<img src="https://render.githubusercontent.com/render/math?math=h_2 = 81.3 m">
 
-<img src="https://render.githubusercontent.com/render/math?math=v_2 = \frac{h_2 - h_1}{t} = \frac{78.6 - 93.1}{1} = -14.5 m/s">
+<img src="https://render.githubusercontent.com/render/math?math=v_2 = \frac{h_2 - h_1}{t} = \frac{81.3 - 93.1}{1} = -11.8 m/s">
 
 Esse processo vai continuar até que o objeto se encontre com o solo.
 
@@ -100,6 +100,12 @@ O nosso modelo retrata a mesma situação com um corpo acelerando na vertical co
 A simulação do modelo está disponível em [Simulação do modelo](https://germanotm.github.io/free-fall/). Preencha os valores de altura inicial e velocidade inicial e clique em simular para observar os resultados.
 
 A imagem abaixo mostra um exemplo de resultado:
+
+![Simulação modelo](./public/simulacao.png)
+
+Observando os gráficos gerados podemos confirmar que o modelo representa bem a realidade de um corpo em queda livre. A aceleração permanece igual pois é uma constante. A altura do objeto diminui em um escala exponencial porque a aceleração é constante , então a velocidade vai aumentar a cada instante de tempo. Durante a simulação a velocidade aumenta com sentido negativo, porque o corpo está caindo.
+
+Podemos ver também que ao adicionar uma velocidade inicial positiva (objeto indo para cima) podemos extrapolar o modelo para simular também o arremesso de um objeto para cima. Por exemplo colocando a altura inicial 0 e a velocidade inicial 50.
 
 # Instruções para rodar localmente
 
