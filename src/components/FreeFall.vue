@@ -6,12 +6,18 @@
 <script>
 
 import * as THREE from 'three'
+
 //import TrackballControls from 'three-trackballcontrols'
 
 
 export default {
   name: 'FreeFall',
   data: function() {
+    return {
+      teste: null
+    }
+    //debugger
+    /*
     const scene = new THREE.Scene()
     // const composer = new THREE.EffectComposer(new WebGLRenderer())
     // const effectPass = new THREE.EffectPass(camera, new BloomEffect())
@@ -61,27 +67,30 @@ export default {
         this.controls.noPan = false
         this.controls.staticMoving = true
         this.controls.dynamicDampingFactor = 0.3
+        */
     },
     mounted: function() {
-        this.$refs.canvas.appendChild(this.renderer.domElement)
-        this.animate()
+  
+      console.log(THREE)
+      //this.$refs.canvas.appendChild(this.renderer.domElement)
+      //this.animate()
     },
     methods: {
-        animate: function() {
+        /*animate: function() {
             requestAnimationFrame(this.animate)
             this.renderer.render(this.scene, this.camera)
             this.cube.rotation.y += this.speed
             this.controls.update()
-        }
+        }*/
     },
     computed: {
-        rotate: function() {
+        /*rotate: function() {
             if (this.speed === '') {
                 return 0
             } else {
                 return this.speed
             }
-        }
+        }*/
     }
 }
 </script>
