@@ -1,6 +1,7 @@
 # Princípios de Modelagem Matemática - Queda Livre
 Aluno: Germano Teixeira de Miranda
 Professor: Albens Atman
+url: https://github.com/germanotm/free-fall/tree/master#readme
 
 O objetivo do trabalho é assimilar o conceito de modelagem matemática e computacional a partir de um problema do mundo real.
 
